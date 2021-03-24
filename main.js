@@ -1,4 +1,4 @@
-const calculate = require('./build/Release/calculate');
-console.time('c++')
-calculate.calc();
-console.timeEnd('c++')
+const addon = require('./build/Release/addon');
+
+console.log("Output from encrypt.cc: ",addon.encrypt(2,3,4))
+console.log("Output from decrypt.cc: ",addon.decrypt(2,4))

@@ -1,8 +1,12 @@
 {
   "targets": [
     {
-      "target_name": "calculate",
-      "sources": [ "calculate.cc" ]
+      "target_name": "addon",
+      "sources": [
+        "addon.cc",
+        "encrypt.cc",
+        "decrypt.cc"
+      ]
     }
   ]
 }
